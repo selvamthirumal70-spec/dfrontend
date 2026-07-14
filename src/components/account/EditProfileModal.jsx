@@ -29,7 +29,7 @@ const EditProfileModal = ({ show, onClose }) => {
     if (shippingAddress) {
       setIsAddAddress(true);
     }
-  }, []);
+  }, [shippingAddress]);
 
   function handleInputChange(identifier, value) {
     setEnteredAddress((prevValues) => ({

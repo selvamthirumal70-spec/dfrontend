@@ -136,6 +136,7 @@ const ProductModal = ({ show, isCreate, onHide, product }) => {
   };
 
   const isDisabledBtn =
+    loadingCreate ||
     loadingUpdate ||
     loadingUpload ||
     enteredValues.name === "" ||
