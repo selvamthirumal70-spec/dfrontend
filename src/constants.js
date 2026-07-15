@@ -1,4 +1,5 @@
-export const BASE_URL = "https://dbackend-vjdy.vercel.app";
+export const BASE_URL =
+  process.env.REACT_APP_API_URL || "https://dbackend-vjdy.vercel.app";
 
 export const USERS_URL = "/api/users";
 export const PRODUCTS_URL = "/api/products";

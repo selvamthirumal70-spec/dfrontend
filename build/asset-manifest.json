@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7e513e3c.css",
+    "main.js": "/static/js/main.892b24d0.js",
+    "static/js/453.d855a71b.chunk.js": "/static/js/453.d855a71b.chunk.js",
+    "static/media/sign-up.png": "/static/media/sign-up.8eb1cb7cf0ca124eb31e.png",
+    "static/media/no-products-found.png": "/static/media/no-products-found.bed0749595e2fea475f9.png",
+    "static/media/sign-in.png": "/static/media/sign-in.7f07bbaa65912dc53975.png",
+    "static/media/dog-smile-s.jpg": "/static/media/dog-smile-s.760d4b5859af92c0d82f.jpg",
+    "static/media/about.jpg": "/static/media/about.a09b9f815c7b92f2f2e2.jpg",
+    "static/media/thank-you.gif": "/static/media/thank-you.ce0b7b2207556ee1ae82.gif",
+    "static/media/logo.png": "/static/media/logo.4af399ecb7f9df45bdd0.png",
+    "static/media/logo-white.png": "/static/media/logo-white.2206f0bc8f2bdd4b902f.png",
+    "index.html": "/index.html",
+    "main.7e513e3c.css.map": "/static/css/main.7e513e3c.css.map",
+    "main.892b24d0.js.map": "/static/js/main.892b24d0.js.map",
+    "453.d855a71b.chunk.js.map": "/static/js/453.d855a71b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e513e3c.css",
+    "static/js/main.892b24d0.js"
+  ]
+}
