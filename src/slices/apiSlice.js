@@ -5,6 +5,7 @@ const baseQuery = fetchBaseQuery({
   baseUrl: BASE_URL,
   credentials: "include",
   mode: "cors",
+
 });
 
 export const apiSlice = createApi({
