@@ -161,10 +161,14 @@ const ProductModal = ({
 
       toast.success(successMessage);
 
-      if (typeof res?.image === "string") {
+      // IMPORTANT:
+      // backend returns `image: /uploads/<filename>` (server path)
+      // Ensure we store that exact backend path, so the preview and later list render correctly.
+      if (typeof res?.image === "string" && res.image.trim().length > 0) {
         handleInputChange("image", res.image);
         setImage(res.image);
       }
+
     } catch (error) {
       console.error("IMAGE UPLOAD ERROR:", error);
 
