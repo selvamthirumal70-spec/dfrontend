@@ -18,11 +18,18 @@ const AdminProducts = () => {
   const [showEditModal, setShowEditModal] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState(null);
 
-  const closeCreateModalHandler = () => setShowCreateModal(false);
+  const closeCreateModalHandler = () => {
+    setShowCreateModal(false);
+    setSelectedProduct(null);
+  };
   const showCreateModalHandler = () => setShowCreateModal(true);
 
-  const closeEditModalHandler = () => setShowEditModal(false);
+  const closeEditModalHandler = () => {
+    setShowEditModal(false);
+    setSelectedProduct(null);
+  };
   const showEditModalHandler = () => setShowEditModal(true);
+
 
   const { data, refetch, isLoading, error } = useGetProductsQuery({
     keyword: "",
